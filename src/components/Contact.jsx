@@ -15,8 +15,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: t('contact.info1Title'),
-      value: '+503 7286 2529',
-      href: 'https://wa.me/50372862529',
+      value: '+503 6694 1522',
+      href: 'https://wa.me/50366941522',
       color: 'from-gcs-gold to-yellow-500'
     },
     {

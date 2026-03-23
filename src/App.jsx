@@ -17,7 +17,7 @@ function App() {
   const { t } = useLanguage();
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+50372862529';
+    const phoneNumber = '+50366941522';
     const message = encodeURIComponent("Hello! I'm interested in your services.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };

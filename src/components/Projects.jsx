@@ -8,26 +8,16 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 'project1',
-      title: t('projects.project1Title'),
-      value: '$0.45M',
-      status: 'Phase 1',
-      location: 'Santa Tecla',
-      completion: '2026',
-      description: t('projects.project1Desc'),
-      imgAlt: 'Modern rental units building in Santa Tecla',
-      imgDesc: 'A sleek, multi-story rental building with glass balconies, reimagined in a fantastical, dream-like architectural style'
-    },
-    {
-      id: 'project2',
-      title: t('projects.project2Title'),
-      value: '$5.0M',
-      status: 'Phase 1',
-      location: 'San Salvador',
-      completion: '2026',
-      description: t('projects.project2Desc'),
-      imgAlt: 'Luxury apartment complex in San Salvador',
-      imgDesc: 'Architectural rendering of a high-end residential complex with a pool, depicted with flowing, organic lines and glowing elements'
+      id: 'project11',
+      title: 'ITzel',
+      value: '$10.0M',
+      status: 'Phase 3',
+      location: 'Lake Ilopango',
+      completion: '2040',
+      description: 'Residential and Commercial Development focused on Wellness',
+      imgAlt: 'ITzel Wellness Development at Lake Ilopango',
+      imgDesc: 'A stunning wellness-focused development at sunset overlooking Lake Ilopango',
+      imgSrc: '/images/projects/itzel-ilopango.png'
     },
     {
       id: 'project3',
@@ -40,29 +30,6 @@ const Projects = () => {
       imgAlt: 'Sound Health Wellness Complex under construction',
       imgDesc: 'A large-scale wellness center visualized as a futuristic oasis of health with crystalline structures and light beams',
       imgSrc: '/images/projects/sound-health-wellness.png'
-    },
-    {
-      id: 'project4',
-      title: t('projects.project4Title'),
-      value: '$0.3M',
-      status: 'Phase 1',
-      location: 'Centro Histórico',
-      completion: '2026',
-      description: t('projects.project4Desc'),
-      imgAlt: 'Remodeled restaurant in the historic center',
-      imgDesc: 'A stylishly remodeled restaurant facade with surreal, whimsical lighting and artistic flourishes at dusk'
-    },
-    {
-      id: 'project5',
-      title: t('projects.project5Title'),
-      value: '$0.1M',
-      status: 'Phase 2',
-      location: 'Huizucar',
-      completion: '2026',
-      description: t('projects.project5Desc'),
-      imgAlt: 'Custom family house in Huizucar',
-      imgDesc: 'A beautiful, newly constructed family home with a spacious garden',
-      imgSrc: '/images/projects/family-house-huizucar.jpg'
     },
     {
       id: 'project6',
@@ -89,15 +56,16 @@ const Projects = () => {
       imgSrc: '/images/projects/sound-health-villas.png'
     },
     {
-      id: 'project8',
-      title: t('projects.project8Title'),
-      value: '$1.2M',
-      status: 'Phase 1',
-      location: 'Nuevo Cuscatlan',
+      id: 'project5',
+      title: t('projects.project5Title'),
+      value: '$0.1M',
+      status: 'Phase 2',
+      location: 'Huizucar',
       completion: '2026',
-      description: t('projects.project8Desc'),
-      imgAlt: 'Rental units in Nuevo Cuscatlan',
-      imgDesc: 'A row of contemporary rental units featuring imaginative, glowing private balconies and artistic facades'
+      description: t('projects.project5Desc'),
+      imgAlt: 'Custom family house in Huizucar',
+      imgDesc: 'A beautiful, newly constructed family home with a spacious garden',
+      imgSrc: '/images/projects/family-house-huizucar.jpg'
     },
     {
       id: 'project9',
@@ -112,6 +80,17 @@ const Projects = () => {
       imgSrc: '/images/projects/punta-mango-house.png'
     },
     {
+      id: 'project2',
+      title: t('projects.project2Title'),
+      value: '$5.0M',
+      status: 'Phase 1',
+      location: 'San Salvador',
+      completion: '2026',
+      description: t('projects.project2Desc'),
+      imgAlt: 'Luxury apartment complex in San Salvador',
+      imgDesc: 'Architectural rendering of a high-end residential complex with a pool, depicted with flowing, organic lines and glowing elements'
+    },
+    {
       id: 'project10',
       title: t('projects.project10Title'),
       value: '$3.0M',
@@ -123,16 +102,37 @@ const Projects = () => {
       imgDesc: 'Elegant luxury wooden cabins nestled in a lush, enchanted forest with magical, glowing details'
     },
     {
-      id: 'project11',
-      title: 'ITzel',
-      value: '$10.0M',
-      status: 'Phase 3',
-      location: 'Lake Ilopango',
-      completion: '2040',
-      description: 'Residential and Commercial Development focused on Wellness',
-      imgAlt: 'ITzel Wellness Development at Lake Ilopango',
-      imgDesc: 'A stunning wellness-focused development at sunset overlooking Lake Ilopango',
-      imgSrc: '/images/projects/itzel-ilopango.png'
+      id: 'project1',
+      title: t('projects.project1Title'),
+      value: '$0.45M',
+      status: 'Phase 1',
+      location: 'Santa Tecla',
+      completion: '2026',
+      description: t('projects.project1Desc'),
+      imgAlt: 'Modern rental units building in Santa Tecla',
+      imgDesc: 'A sleek, multi-story rental building with glass balconies, reimagined in a fantastical, dream-like architectural style'
+    },
+    {
+      id: 'project8',
+      title: t('projects.project8Title'),
+      value: '$1.2M',
+      status: 'Phase 1',
+      location: 'Nuevo Cuscatlan',
+      completion: '2026',
+      description: t('projects.project8Desc'),
+      imgAlt: 'Rental units in Nuevo Cuscatlan',
+      imgDesc: 'A row of contemporary rental units featuring imaginative, glowing private balconies and artistic facades'
+    },
+    {
+      id: 'project4',
+      title: t('projects.project4Title'),
+      value: '$0.3M',
+      status: 'Phase 1',
+      location: 'Centro Histórico',
+      completion: '2026',
+      description: t('projects.project4Desc'),
+      imgAlt: 'Remodeled restaurant in the historic center',
+      imgDesc: 'A stylishly remodeled restaurant facade with surreal, whimsical lighting and artistic flourishes at dusk'
     }
   ];
   
